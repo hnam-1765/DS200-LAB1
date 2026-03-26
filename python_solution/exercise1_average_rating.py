@@ -1,0 +1,12 @@
+from common import exercise_1, load_movies, load_ratings
+
+
+def main():
+    movies = load_movies()
+    ratings = load_ratings()
+    for line in exercise_1(movies, ratings):
+        print(line)
+
+
+if __name__ == "__main__":
+    main()
