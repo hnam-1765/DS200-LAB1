@@ -5,7 +5,7 @@ BASE_DIR = Path(__file__).resolve().parents[1]
 RESULTS_DIR = BASE_DIR / "results"
 sys.path.insert(0, str(BASE_DIR))
 
-from python_solution.common import exercise_1, exercise_2, exercise_3, exercise_4, load_movies, load_ratings, load_users
+from python_bonus.common import exercise_1, exercise_2, exercise_3, exercise_4, load_movies, load_ratings, load_users
 
 
 def write_text_output(filename, lines):
